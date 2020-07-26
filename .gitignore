@@ -1,0 +1,5 @@
+/vendor/
+.idea
+.git
+.DS_STORE
+index.php
