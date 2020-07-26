@@ -1,7 +1,7 @@
 {
   "name": "s1njar/kitsu-php",
   "description": "PHP api wrapper for kitsu.",
-  "keywords": ["anime", "kitsu", "api", "s1njar", "php-wrapper"],
+  "keywords": ["anime", "manga", "kitsu", "api", "s1njar", "php-wrapper"],
   "license": "MIT",
   "minimum-stability": "dev",
   "authors": [
@@ -15,15 +15,8 @@
       "S1njar\\Kitsu\\": "src/"
     }
   },
-  "autoload-dev": {
-    "psr-4": {
-      "Tests\\": "tests/"
-    }
-  },
   "require": {
-    "php": ">=7.3"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^7"
+    "php": ">=7.3",
+    "guzzlehttp/guzzle": "^7.1@dev"
   }
 }
